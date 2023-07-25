@@ -253,20 +253,25 @@ Valoración sobre este web:
 
 
 
-
-
 <script>
-function dimePropiedades(){
-var texto
-texto = "El numero de opciones del select: " + document.formul.miSelect.length
-var indice = document.formul.miSelect.selectedIndex
-texto += "nIndice de la opcion escogida: " + indice
-var valor = document.formul.miSelect.options[indice].value
-texto += "nValor de la opcion escogida: " + valor
-var textoEscogido = document.formul.miSelect.options[indice].text
-texto += "nTexto de la opcion escogida: " + textoEscogido
-alert(texto) }
-
+function cuenta(){
+numCaracteres = document.formul.textito.value.length
+document.formul.numCaracteres.value = numCaracteres
+}
 </script>
+</head>
+<body>
+<form name="formul">
+<textarea name=textito cols=40 rows=3>
+Este es el texto por defecto
+</textarea>
+<br>
+<br>
+Número de caracteres <input type="Text" name="numCaracteres" size="4">
+<br>
+<br>
+<input type=button value="Cuenta caracteres" onclick="cuenta()">
+</form>
+
          </HTML
 </html>
