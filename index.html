@@ -60,7 +60,7 @@ nombre = prompt("Estas Listo:","")
 
 
 
-document.write("<h1>CAMBIAR EL COLOR DE LA PAGINA DE LA PAGINA" + nombre + "</h1>")
+document.write("<h1>CAMBIAR EL COLOR DE LA PAGINA DE LA PAGINA"+ nombre + "</h1>")
 </script>
 
 
@@ -76,6 +76,22 @@ document.bgColor = colorin
 <input type="Button" value="MODO DIA" onclick="cambiaColor('white')">
 
 </form>
+
+
+<script language="JavaScript">
+function mostrarSeleccionado(){
+alert("Has seleccionado:n" + document.getSelection())
+}
+</script>
+</head>
+<body>
+<h1>Rescatar lo seleccionado</h1>
+<br>
+<form>
+<input type="button" value="pulsame!" onClick="mostrarSeleccionado()">
+</form>
+Selecciona cualquier texto de la página y pulsa sobre el botón.
+
 
 </BODY>
          </HTML
