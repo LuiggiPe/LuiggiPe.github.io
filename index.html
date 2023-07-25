@@ -330,5 +330,29 @@ document.f1.provincia.options[0].selected = true
 }
 </script>
 
+
+
+
+
+
+<head>
+<title>Evento onabort</title>
+<script>
+function preguntarSeguir(){
+respuesta = confirm ("Has detenido la carga de la página y hay una imagen que no estás viendo.n¿Deseas cargar la imagen?")
+if (respuesta)
+document.img1.src = "http://ipaginate.iespana.es/ipaginate/desarrollogrande.gif"
+}
+</script>
+</head>
+<body>
+<img name=img1 src="http://ipaginate.iespana.es/ipaginate/desarrollogrande.gif" width=500 height=458 alt="Imagen que pesa 115K" border="0" onabort="preguntarSeguir()">
+<br>
+Pulsa el botón de parar la carga de la página y se pondrá en marcha el evento onerror
+</body>
+
+
+
+
          </HTML
 </html>
