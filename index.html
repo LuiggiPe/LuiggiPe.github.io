@@ -148,21 +148,11 @@ document.miFormulario.campo1.defaultValue = "Hola!!"
 </form>
 </BODY>
 
-<head>
-<title>Ejemplo Checkbox</title>
-<script>
-function alertaChecked(){
-alert(document.miFormulario.miCheck.checked);
-}
-function alertaValue(){
-alert(document.miFormulario.miCheck.value);
-}
-function metodoClick(){
-document.miFormulario.miCheck.click();
-}
-</script>
-</head>
-
+<input type="radio" name="status" value="interesado" id="interesado"> <label for="interesado">Estoy interesado</label>
+<br>
+<input type="radio" name="status" value="indeciso" id="indeciso"> <label for="indeciso">Estoy indeciso</label>
+<br>
+<input type="radio" name="status" value="no_interesado" id="no_interesado"> <label for="no_interesado">No me interesa</label>
 
          </HTML
 </html>
