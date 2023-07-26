@@ -1,8 +1,25 @@
 body {
             background-image: url('635dd42e5d9f2443bd1c143b.png');
-            background-repeat: no-repeat;
-            background-size: cover;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 100px;
+       
+    font-family: Arial, sans-serif;
+  
+    text-align: center;
+}
+
+h1 {
+    color: #0066cc;
+}
+
+p {
+    font-size: 16px;
+}
+
+.caja {
+    background-color: #ff9933;
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #cc6600;
+    border-radius: 10px;
         }
