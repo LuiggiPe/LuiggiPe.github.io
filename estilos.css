@@ -1,10 +1,8 @@
-head  {
-  background-image: url("635dd42e5d9f2443bd1c143b.png");}
-
 body {
     margin: 0;
     padding: 0;
-      background-size: cover;
+    background-image: url("635dd42e5d9f2443bd1c143b.png");
+    background-size: cover; /* Expande la imagen para cubrir toda la página */
     background-repeat: no-repeat;
 }
 
@@ -13,6 +11,11 @@ ul {
     margin: 0;
     padding: 0;
     background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; /* Asegura que el menú esté por encima del contenido */
 }
 
 ul li {
@@ -37,11 +40,11 @@ ul li {
     float: left;
     margin: 0;
     padding: 0;
-    background-color: #2e518b; /* Fondo de los items del menú */
+    background-color: #2e518b;
 }
 
 ul li:hover {
-    background: #5b78a7; /* Efecto al pasar el ratón por los items del menú */
+    background: #5b78a7;
 }
 
 .submenu {
@@ -49,6 +52,7 @@ ul li:hover {
     position: absolute;
     background-color: #f1f1f1;
     padding-top: 40px;
+    width: 100%; /* Expande el menú desplegable al 100% de ancho */
 }
 
 ul li:hover .submenu {
@@ -61,11 +65,7 @@ ul li:hover .submenu {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.5); /* Transparencia del 50% */
     padding: 20px;
     border-radius: 10px;
-    /* Agregar el fondo de la imagen */
-     background-image: url("635dd42e5d9f2443bd1c143b.png");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
