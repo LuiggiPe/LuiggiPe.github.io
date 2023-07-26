@@ -1,8 +1,10 @@
+head  {
+  background-image: url("635dd42e5d9f2443bd1c143b.png");}
+
 body {
     margin: 0;
     padding: 0;
-    background-image: url("635dd42e5d9f2443bd1c143b.png");
-    background-size: cover;
+      background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -63,7 +65,7 @@ ul li:hover .submenu {
     padding: 20px;
     border-radius: 10px;
     /* Agregar el fondo de la imagen */
-    background-image: url("635dd42e5d9f2443bd1c143b.png");
+     background-image: url("635dd42e5d9f2443bd1c143b.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
