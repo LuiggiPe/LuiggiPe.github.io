@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("635dd42e5d9f2443bd1c143b.png");
-    background-size: cover; /* Expande la imagen para cubrir toda la página */
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -52,13 +52,15 @@ ul li:hover {
     position: absolute;
     background-color: #f1f1f1;
     padding-top: 40px;
-    width: 100%; /* Expande el menú desplegable al 100% de ancho */
+    width: 100%;
+    left: 0; /* Ajustar posición del menú desplegable */
 }
 
 ul li:hover .submenu {
     display: block;
 }
 
+/* Ajustar estilos del contenido centrado */
 .centrar-texto {
     position: absolute;
     top: 50%;
